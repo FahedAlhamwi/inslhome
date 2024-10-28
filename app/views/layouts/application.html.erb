@@ -2,7 +2,7 @@
 <html>
   <head>
     <title><%= content_for(:title) || "Insl Project" %></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -46,32 +46,31 @@
             </li>
 
             <!-- Unser Angebot Dropdown -->
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUnserAngebot" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Unser Angebot
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownUnserAngebot">
-    <a class="dropdown-item" href="/sprachtraining_4_you">Deutsch 4 You</a>
-    <a class="dropdown-item" href="/sprachforscher">Sprachforscher</a>
-    <a class="dropdown-item" href="/sprachdetektive">Sprachdetektive</a>
-    <a class="dropdown-item" href="/sprachpiraten">Sprachpiraten</a>
-    <a class="dropdown-item" href="/online-Sprachkurse">Online-Sprachkurse</a>
-    <a class="dropdown-item" href="/fortbildungen">Fortbildungen</a>
-    <a class="dropdown-item" href="/about">Netzwerk</a>
-  </div>
-</li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUnserAngebot" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Unser Angebot
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownUnserAngebot">
+                <a class="dropdown-item" href="/sprachtraining_4_you">Deutsch 4 You</a>
+                <a class="dropdown-item" href="/sprachforscher">Sprachforscher</a>
+                <a class="dropdown-item" href="/sprachdetektive">Sprachdetektive</a>
+                <a class="dropdown-item" href="/sprachpiraten">Sprachpiraten</a>
+                <a class="dropdown-item" href="/online_sprachkurse">Online-Sprachkurse</a>
+                <a class="dropdown-item" href="/fortbildungen">Fortbildungen</a>
+                <a class="dropdown-item" href="/about">Netzwerk</a>
+              </div>
+            </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="/bildungssprache">Was ist Bildungssprache</a> <!-- Link to Bildungssprache page -->
-          </li>
+              <a class="nav-link" href="/bildungssprache">Was ist Bildungssprache</a>
+            </li>
     
-    
-          <li class="nav-item">
-            <a class="nav-link" href="/spenden">Spenden</a> <!-- Link to Spenden page -->
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="/contact">Kontakt</a>
-        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/spenden">Spenden</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Kontakt</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -82,10 +81,9 @@
       <%= yield %>
     </div>
 
-<footer class="bg-dark text-white text-center sticky-footer py-3 mt-auto">
-   © InSL e.V. |  <a class="" href="/contact">Kontakt</a> |  <a class="" href="/impressum">Impressum</a> | <a class="" href="/datenschutz">Datenschutz</a>
-
-</footer>
+    <footer class="bg-dark text-white text-center sticky-footer py-3 mt-auto">
+      © InSL e.V. | <a class="" href="/contact">Kontakt</a> | <a class="" href="/impressum">Impressum</a> | <a class="" href="/datenschutz">Datenschutz</a>
+    </footer>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -93,5 +91,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
-
- 

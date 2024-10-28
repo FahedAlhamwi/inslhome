@@ -1,93 +1,94 @@
 <div class="container-fluid p-0">
-<div class="full-width-banner mt-navbar">
-<%= image_tag 'banner-schule2.jpg', alt: 'Chalkboard Background', class: 'banner-background' %>
-<div class="banner-overlay">
+  <div class="full-width-banner mt-navbar">
+    <%= image_tag 'banner-schule2.jpg', alt: 'Chalkboard Background', class: 'banner-background' %>
+    <div class="banner-overlay">
+      <%= image_tag 'banner-startseite.jpg', alt: 'Children and Adults', class: 'banner-overlay-image' %>
+    </div>
+  </div>
 
-  <%= image_tag 'banner-startseite.jpg', alt: 'Children and Adults', class: 'banner-overlay-image' %>
-</div>
-</div>
+  <div class="container mt-5">
+    
+    <!-- Card Section -->
+    <div class="row">
+      <!-- First Column: Unser Angebot -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <div class="card-body p-4">
+            <h5 class="card-title">Unser Angebot</h5>
+            <p>Informieren Sie sich über das vielfältige Angebot der InSL! Wir bieten Sprachtraining und Sprachförderung von der Kita bis ins Erwachsenenalter!</p>
+            <ul>
+              <li>Sprachtraining in Kindergarten</li>
+              <li>Sprachtraining in der Grundschule</li>
+              <li>Sprachtraining in der Sekundarstufe</li>
+              <li><a href="/online_sprachkurse">Online-Lese- und Schreibtraining</a></li>
+              <li><a href="/sprachtraining_4_you">Erwachsenenkurse (Deutsch4You)</a></li>
+              <li><a href="/fortbildungen">Fortbildungen für Lehrkräfte / ErzieherInnen</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<div class="container mt-5">
-  
-
-  <!-- Card Section -->
-  <div class="row">
-    <!-- First Column: Unser Angebot -->
-    <div class="col-md-6 mb-4">
-      <div class="card  h-100 shadow">
-        <div class="card-body p-4">
-          <h5 class="card-title">Unser Angebot</h5>
-          <p>Informieren Sie sich über das vielfältige Angebot der InSL! Wir bieten Sprachtraining und Sprachförderung von der Kita bis ins Erwachsenenalter!</p>
-          <ul>
-            <li>Sprachtraining in Kindergarten</li>
-            <li>Sprachtraining in der Grundschule</li>
-            <li>Sprachtraining in der Sekundarstufe</li>
-            <li><a href="/online_sprachkurse">Online-Lese- und Schreibtraining</a></li>
-            <li><a href="/sprachtraining_4_you">Erwachsenenkurse (Deutsch4You)</a></li>
-            <li><a href="/fortbildungen">Fortbildungen für Lehrkräfte / ErzieherInnen</a></li>
-          </ul>
+      <!-- Second Column: Eine InSL für die Sprache -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <div class="card-body p-4">
+            <h5 class="card-title">Eine InSL für die Sprache</h5>
+            <p>Die InSL wurde 2011 gegründet, um Kindern in Friedrichsdorf und Umgebung kostenlosen Unterricht zum Erwerb der Bildungssprache zu ermöglichen.</p>
+            <ul>
+              <li><a href="/offer">Was ist Bildungssprache?</a></li>
+              <li><a href="/team">Das Team der InSL</a></li>
+              <li><a href="/spenden">Sponsoren und Spenden</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Second Column: Eine InSL für die Sprache -->
-    <div class="col-md-6 mb-4">
-      <div class="card  h-100 shadow ">
-        <div class="card-body p-4">
-          <h5 class="card-title">Eine InSL für die Sprache</h5>
-          <p>Die InSL wurde 2011 gegründet, um Kindern in Friedrichsdorf und Umgebung kostenlosen Unterricht zum Erwerb der Bildungssprache zu ermöglichen.</p>
+    <!-- Network Section -->
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="card bg-light p-4 shadow d-flex flex-lg-row flex-column align-items-center border border-primary">
+          
+          <!-- Text Content -->
+          <div class="flex-fill">
+            <h5>Gut organisiert im Netzwerk!</h5>
+            <p>Gemeinsam geht Sprachförderung noch besser. InSL arbeitet daher aktiv an der Errichtung von Netzwerken in verschiedenen Regionen Deutschlands. In diesen Netzwerken haben Pädagogen die Möglichkeit, sich regelmäßig mit anderen zum Thema Sprache auszutauschen. Dabei erhalten sie in unseren Netzwerktreffen regelmäßig einen interessanten Input und können mit anderen über ihre Erfahrungen sprechen.</p>
+            <p><a href="#">Erfahren Sie mehr über die InSL-Sprachfördernetzwerke sowie exemplarisch über die Arbeit in unserer Kernregion rund um Friedrichsdorf</a></p>
+          </div>
 
-          <!-- Add links like in your design -->
-          <ul>
-            <li><a href="/offer">Was ist Bildungssprache?</a></li>
-            <li><a href="/team">Das Team der InSL</a></li>
-            <li><a href="/spenden">Sponsoren und Spenden</a></li>
-          </ul>
+          <!-- Logo or Graphic -->
+          <div class="ml-lg-5 mt-4 mt-lg-0">
+            <%= image_tag 'netz.png', alt: 'Children and Adults', class: 'img-fluid rounded-circle', style: 'width:500px; height:150px;' %>
+          </div>
+        
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Network Section -->
-  <div class="row mt-5">
-    <div class="col-md-12">
-      <div class="card bg-light p-4  shadow">
-        <h5>Gut organisiert im Netzwerk!</h5>
-        <p>Gemeinsam geht Sprachförderung noch besser. InSL arbeitet daher aktiv an der Errichtung von Netzwerken in verschiedenen Regionen Deutschlands. In diesen Netzwerken haben Pädagogen die Möglichkeit, sich regelmäßig mit anderen zum Thema Sprache auszutauschen. Dabei erhalten sie in unseren Netzwerktreffen regelmäßig einen interessanten Input und können mit anderen über ihre Erfahrungen sprechen.</p>
-
-        <!-- Add Network Info here -->
-        <p><a href="#">Erfahren Sie mehr über die InSL-Sprachfördernetzwerke sowie exemplarisch über die Arbeit in unserer Kernregion rund um Friedrichsdorf</a></p>
-
-        <!-- Add a network logo or graphic above or beside this section as shown in your design -->
-      </div>
+    <!-- Donation Section -->
+    <div class="card custom-card mt-5 shadow p-4">
+      <h2>Ihre Spende:</h2>
+      <p>Viele Kinder können sich Sprachbildung nicht leisten. Aus diesem Grund bieten wir die meisten unserer Kurse kostenlos oder zu einem geringen Entgelt an. Sichern Sie mit Ihrer Spende unsere Arbeit für die Kinder und für eine Gesellschaft, in der jedes Kind eine Chance erhält!</p>
+      <p><strong>InSL e.V.</strong></p>
+      <p>Kreditinstitut: Taunus Sparkasse</p>
+      <p>IBAN: DE 9751 2500 0000 2800 2971</p>
+      <p>BIC: HELADEF1TSK</p>
+      <a href="/spenden">Sponsoren und Spenden</a>
     </div>
-  </div>
 
-  <!-- Donation Section -->
-  <div class="card custom-card mt-5 shadow p-4 ">
-    <h2>Ihre Spende:</h2>
-    <p>Viele Kinder können sich Sprachbildung nicht leisten. Aus diesem Grund bieten wir die meisten unserer Kurse kostenlos oder zu einem geringen Entgelt an. Sichern Sie mit Ihrer Spende unsere Arbeit für die Kinder und für eine Gesellschaft, in der jedes Kind eine Chance erhält!</p>
-    <p><strong>InSL e.V.</strong></p>
-    <p>Kreditinstitut: Taunus Sparkasse</p>
-    <p>IBAN: DE 9751 2500 0000 2800 2971</p>
-    <p>BIC: HELADEF1TSK</p>
-    <a href="/spenden">Sponsoren und Spenden</a>
-  </div>
-
-  <!-- Pinboard Section -->
-  <div class="card mt-5 shadow p-4 ">
-    <h2>Digitale Pinnwand:</h2>
-    <p>Hier können Sie noch mehr über die Arbeit der InSL erfahren:</p>
-    
-    <h3>Das InSL-KidsCamp</h3>
-    <p>Ergänzend zu unserem Angebot der Sprachdetektive findet seit mehreren Jahren in den Sommerferien im Sprachfördernetzwerk Friedrichsdorf das KidsCamp der InSL statt. Kinder aus den Friedrichsdorfer Grundschulen werden hier spielerisch an das Lesen (Kompetenz und Motivation) herangeführt und können dabei im Rahmen des jährlichen ausschlaggebenden Themas viel über sich und die eigenen Fertigkeiten erfahren. Wir machen Ausflüge zu verschiedenen Attraktionen und bieten - mit tatkräftiger Unterstützung des Rotary Clubs - vielfältige Aktivitäten direkt im Camp.
-    </p>
-    <a href="#">Exemplarischer Rückblick auf das KidsCamp 2022</a>
-    
-    <h3>Der InSL-Wirkungsbericht</h3>
-    <p>Lernen Sie unseren Verein ausführlich kennen und erfahren Sie mehr über unsere Angebote und ihre Wirkung, über die Organisationsstruktur der InSL, unsere Motivation und Ziele für die Zukunft.
-    </a>
-  </div>
-  <br>
-</div> 
-</div><!-- End container -->
+    <!-- Pinboard Section -->
+    <div class="card mt-5 shadow p-4">
+      <h2>Digitale Pinnwand:</h2>
+      <p>Hier können Sie noch mehr über die Arbeit der InSL erfahren:</p>
+      
+      <h3>Das InSL-KidsCamp</h3>
+      <p>Ergänzend zu unserem Angebot der Sprachdetektive findet seit mehreren Jahren in den Sommerferien im Sprachfördernetzwerk Friedrichsdorf das KidsCamp der InSL statt. Kinder aus den Friedrichsdorfer Grundschulen werden hier spielerisch an das Lesen (Kompetenz und Motivation) herangeführt und können dabei im Rahmen des jährlichen ausschlaggebenden Themas viel über sich und die eigenen Fertigkeiten erfahren. Wir machen Ausflüge zu verschiedenen Attraktionen und bieten - mit tatkräftiger Unterstützung des Rotary Clubs - vielfältige Aktivitäten direkt im Camp.</p>
+      <a href="#">Exemplarischer Rückblick auf das KidsCamp 2022</a>
+      
+      <h3>Der InSL-Wirkungsbericht</h3>
+      <p>Lernen Sie unseren Verein ausführlich kennen und erfahren Sie mehr über unsere Angebote und ihre Wirkung, über die Organisationsstruktur der InSL, unsere Motivation und Ziele für die Zukunft.</p>
+      <a href="#">Erfahren Sie mehr über den InSL-Wirkungsbericht</a>
+    </div>
+    <br>
+  </div> 
+</div> <!-- End container -->
