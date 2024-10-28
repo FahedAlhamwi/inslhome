@@ -1,30 +1,39 @@
 <div class="container-fluid p-0">
   <div class="full-width-banner mt-navbar">
     <%= image_tag 'banner-schule2.jpg', alt: 'Chalkboard Background', class: 'banner-background' %>
+    
     <div class="banner-overlay">
       <%= image_tag 'banner-online-unterricht.jpg', alt: 'Children and Adults', class: 'banner-overlay-image' %>
     </div>
   </div>
 
-  <div class="container mt-4">
-
+  <div class="container mt-5">
+    <!-- Online Reading Training Section -->
     <div class="row">
       <div class="col-12">
         <div class="card shadow mb-4">
           <div class="card-body">
             <div class="row">
+              <!-- Training Description -->
               <div class="col-md-9">
                 <h2>Online-Lesetraining</h2>
                 <p>
-                  In unserem Online-Leseförderkurs können Schülerinnen und Schüler (Klasse 2-3) in einem Online-Unterricht in Gruppen von bis zu 3 Kindern lesen üben. Dabei verwenden wir Methoden, die auch für Kinder mit geringen Kenntnissen in der deutschen Bildungssprache geeignet sind und die es ihnen ermöglichen, einen Lesewortschatz aufzubauen.
+                  In unserem Online-Leseförderkurs können Schülerinnen und
+                  Schüler (Klasse 2-3) in einem Online-Unterricht in Gruppen von
+                  bis zu 3 Kindern lesen üben. Dabei verwenden wir Methoden, die
+                  auch für Kinder mit geringen Kenntnissen in der deutschen
+                  Bildungssprache geeignet sind und die es ihnen ermöglichen,
+                  einen Lesewortschatz aufzubauen.
                 </p>
                 <p>2x pro Woche 40 Minuten, Preis: 100 Euro pro Monat</p>
                 <p>
                   Interesse? <a href="#">Nehmen Sie hier Kontakt mit uns auf!</a>
                 </p>
               </div>
+              
+              <!-- Trainer Image and Info -->
               <div class="col-md-3 text-center">
-                <img src="/assets/rabia_özisli.jpg" alt="Rabia Özisli" class="img-fluid rounded-circle mb-2" style="width:150px; height:150px;">
+                <%= image_tag 'rabia_özisli.jpg', alt: 'Rabia Özisli', class: 'img-fluid rounded-circle mb-2', style: 'width:150px; height:150px;' %>
                 <p class="mb-0"><strong>RABIA ÖZISLI</strong></p>
                 <p>Sprachtrainerin</p>
               </div>
@@ -33,16 +42,23 @@
         </div>
       </div>
     </div>
-  
+
+    <!-- Online Writing Training Section -->
     <div class="row">
       <div class="col-12">
         <div class="card shadow">
           <div class="card-body">
             <h2>Online-Schreibtraining</h2>
             <p>
-              In unserem Online-Schreibtraining können Schülerinnen und Schüler (Klasse 4-5) in einem Online-Unterricht in Gruppen von bis zu sechs SchülerInnen das Verfassen von Texten üben. Dabei verwenden wir Methoden, die auch für Kinder mit geringen Kenntnissen in der deutschen Bildungssprache geeignet sind und die es ihnen ermöglichen, einen Schreibwortschatz und Kenntnisse der Textgrammatik aufzubauen.
+              In unserem Online-Schreibtraining können Schülerinnen und Schüler
+              (Klasse 4-5) in einem Online-Unterricht in Gruppen von bis zu sechs
+              SchülerInnen das Verfassen von Texten üben. Dabei verwenden wir
+              Methoden, die auch für Kinder mit geringen Kenntnissen in der
+              deutschen Bildungssprache geeignet sind und die es ihnen
+              ermöglichen, einen Schreibwortschatz und Kenntnisse der
+              Textgrammatik aufzubauen.
             </p>
-            <p>1x 90 Minuten pro Woche, Preis: 125 Euro</p>
+            <p>1x 90 Minuten pro Woche. Preis: 125 Euro</p>
             <p>
               Interesse? <a href="#">Nehmen Sie hier Kontakt mit uns auf!</a>
             </p>
