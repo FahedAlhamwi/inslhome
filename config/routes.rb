@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   get 'sprachforscher', to: 'pages#sprachforscher', as: 'sprachforscher'
   get 'sprachdetektive', to: 'pages#sprachdetektive', as: 'sprachdetektive'
   get 'sprachpiraten', to: 'pages#sprachpiraten', as: 'sprachpiraten'
-  get 'online-Sprachkurse', to: 'pages#online-Sprachkurse', as: 'online-Sprachkurse'
+  get 'online_sprachkurse', to: 'pages#online_sprachkurse', as: 'online_sprachkurse'
   get 'contact', to: 'pages#contact'
   get 'spenden', to: 'pages#spenden'
   get 'offer', to: 'pages#offer'
