@@ -121,6 +121,9 @@ body {
     border: 1px solid #ccc;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Add border-radius for rounded corners */
+    border-radius: 10px !important; /* Adjust the value for more or less rounding */
 }
 
 .dropdown:hover .dropdown-menu {
@@ -134,8 +137,9 @@ body {
     display: block;
 }
 
+/* Optional: Change background color on hover */
 .dropdown-item:hover {
-    background-color: #f0f0f0;
+    background-color: #f8f9fa; /* Light gray background on hover */
 }
 
 
