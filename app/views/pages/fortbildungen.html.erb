@@ -9,33 +9,53 @@
   <div class="container mt-5">
     <!-- Section 1: Professional Development Information -->
     <div class="row mb-5">
-      <div class="col-lg-12">
-        <div class="card shadow p-4 d-flex flex-lg-row flex-column align-items-start">
-          <!-- Left Column: Professional Development Info -->
-          <div class="flex-fill">
-            <h3>Fortbildungen für Lehrkräfte und Pädagogen</h3>
-            <p>
-              Der ungesteuerte Erwerb der deutschen Bildungssprache im Alltag der Bildungseinrichtungen ist sehr ineffizient für Kinder. Pädagogen und Lehrkräfte können durch systematische Hilfestellungen im Unterricht den Sprachlernprozess niederschwellig beschleunigen. Dafür braucht es keinen umfassenden, separaten Unterricht, sondern Wissen um mehrsprachige Entwicklung, Sensibilisierung für besonders effiziente Sprachlernsituationen und Techniken der Vermittlung der Bildungssprache in allen Fächern und Situationen.
-            </p>
-            <p>
-              Wir bieten Fortbildungen zu diesen Themen an. Profitieren Sie von unseren E-Learning-Modulen, um im eigenen Tempo die für Sie relevanten Themen zu bearbeiten. Alle Angebote sind praxisorientiert und beinhalten unsere Erfahrungen aus über zehn Jahren Sprachförderung und Sprachbildung. Begleitet werden die E-Learning-Module von Angeboten zum Coaching, zur Einzelfallberatung und zum Austausch mit anderen Lehrkräften. Werden Sie Teil unseres Netzwerks von erfahrenen SprachtrainerInnen, sprachsensiblen PädagogInnen und DaZ-Lehrkräften!
-            </p>
-            <p>Hier gelangen Sie zu unserem aktuellen Angebot:</p>
-            <ul>
-              <li><a href="https://teungedj.de/">Fortbildungsplattform Teungedj</a></li>
-            </ul>
-          </div>
-
-          <!-- Right Column: Managing Director Image -->
-          <div class="align-self-center ml-lg-5 mt-4 mt-lg-0">
-            <%= image_tag 'kristina_edel.jpg', alt: 'Dr. Kristina Edel', class: 'img-fluid rounded-circle', style: 'width:150px; height:150px;' %>
-            <p class="mt-3 text-center">
-              <strong>Dr. KRISTINA EDEL</strong><br>
-              Geschäftsführung
-            </p>
-          </div>
+    <div class="col-lg-12">
+      <div class="card shadow p-4 d-flex flex-lg-row flex-column align-items-start h-100">
+        <!-- Left Section: Text Content -->
+        <div class="flex-fill" style="max-width: 800px">
+          <h3>Fortbildungen für Lehrkräfte und Pädagogen</h3>
+          <p>
+            Der ungesteuerte Erwerb der deutschen Bildungssprache im Alltag der Bildungseinrichtungen ist sehr ineffizient für Kinder. Pädagogen und Lehrkräfte können durch systematische Hilfestellungen im Unterricht den Sprachlernprozess niederschwellig beschleunigen. Dafür braucht es keinen umfassenden, separaten Unterricht, sondern Wissen um mehrsprachige Entwicklung, Sensibilisierung für besonders effiziente Sprachlernsituationen und Techniken der Vermittlung der Bildungssprache in allen Fächern und Situationen.
+          </p>
+          <p>
+            Wir bieten Fortbildungen zu diesen Themen an. Profitieren Sie von unseren E-Learning-Modulen, um im eigenen Tempo die für Sie relevanten Themen zu bearbeiten. Alle Angebote sind praxisorientiert und beinhalten unsere Erfahrungen aus über zehn Jahren Sprachförderung und Sprachbildung. Begleitet werden die E-Learning-Module von Angeboten zum Coaching, zur Einzelfallberatung und zum Austausch mit anderen Lehrkräften. Werden Sie Teil unseres Netzwerks von erfahrenen SprachtrainerInnen, sprachsensiblen PädagogInnen und DaZ-Lehrkräften!
+          </p>
+          <p>Hier gelangen Sie zu unserem aktuellen Angebot:</p>
+          <ul>
+          <li style="list-style-type: none; margin: 10px 0;">
+          <a href="https://teungedj.de/" target="_blank" 
+             style="display: inline-block; padding: 10px 20px; background-color: #4a90e2; 
+                    color: white; font-size: 18px; font-weight: bold; text-decoration: none; 
+                    border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+                    transition: background-color 0.3s, transform 0.3s;">
+              Fortbildungsplattform Teungedj
+          </a>
+      </li>
+      
+      <script>
+          // Hover effect for the button
+          document.querySelector('a').addEventListener('mouseenter', function() {
+              this.style.backgroundColor = '#f39c12';  // Change background to orange on hover
+              this.style.transform = 'scale(1.05)';  // Slightly enlarge the button
+          });
+      
+          document.querySelector('a').addEventListener('mouseleave', function() {
+              this.style.backgroundColor = '#4a90e2';  // Revert background to blue
+              this.style.transform = 'scale(1)';  // Revert button size back to normal
+          });
+      </script>
+      
+          </ul>
+        </div>
+  
+        <!-- Right Section: Image and Info -->
+        <div class="align-self-center ml-lg-5 mt-4 mt-lg-0 text-center">
+          <img src="/assets/kristina_edel.jpg" alt="Dr. Kristina Edel" class="img-fluid rounded-circle" style="width:150px; height:150px;">
+          <h5 class="mt-3">Dr. KRISTINA EDEL</h5>
+          <p>Geschäftsführung</p>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </div>
