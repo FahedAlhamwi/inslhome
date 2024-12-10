@@ -1,4 +1,47 @@
-/* General Styles */
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+    .custom-navbar {
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .custom-navbar .navbar-brand img {
+        height: 40px;
+    }
+
+    .custom-navbar .navbar-toggler {
+        border: 2px solid #0000FF;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .custom-navbar .navbar-nav {
+        padding-top: 20px;
+    }
+
+    .custom-navbar .nav-link,
+    .custom-navbar .dropdown-item {
+        color: #fff !important;
+        padding: 10px 15px;
+        background-color: rgba(0, 100, 255, 0.7);
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-navbar .nav-link:hover,
+    .custom-navbar .dropdown-item:hover {
+        background-color: rgba(0, 100, 255, 0.9);
+    }
+
+    .custom-navbar .dropdown-menu {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+}
+
+    /* General Styles */
 body {
     background-image: url('/assets/pattern_background.png');
     background-size: cover;
