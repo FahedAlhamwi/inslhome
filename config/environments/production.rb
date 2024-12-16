@@ -63,7 +63,9 @@ Rails.application.configure do
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
+  config.assets.precompile += %w( *.png *.jpg *.jpeg *.gif )
 
+  
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter = :resque
   # config.active_job.queue_name_prefix = "insl_project_production"
@@ -73,6 +75,7 @@ Rails.application.configure do
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # config.action_mailer.raise_delivery_errors = false
+  config.serve_static_assets = true
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to 
   # the I18n.default_locale when a translation cannot be found).
