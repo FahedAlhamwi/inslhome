@@ -75,7 +75,7 @@ Rails.application.configure do
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # config.action_mailer.raise_delivery_errors = false
-  config.serve_static_assets = true
+  config.public_file_server.enabled = true
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to 
   # the I18n.default_locale when a translation cannot be found).
