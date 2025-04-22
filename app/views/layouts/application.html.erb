@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="icon" type="image/x-icon" href="<%= asset_path('favicon.ico') %>">
+<link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/favicon-192x192.png"> <!-- or create a specific 180x180 -->
+    <meta property="og:image" content="https://sprachelesenlernen.de/og_image_final.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+    <meta name="twitter:image" content="https://sprachelesenlernen.de/og_image_final.jpg" />
+
+    <meta property="og:type" content="website" /> <!-- or article, etc. -->
+
     <title><%= content_for(:title) || "InSL Homepage" %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,7 +27,7 @@
     <link rel="apple-touch-icon" href="/icon.png">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" defer>
   </head>
 
   <body class="d-flex flex-column min-vh-100">
@@ -65,7 +75,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/bildungssprache">Was ist Bildungssprache?</a>
             </li>
-    
+
             <li class="nav-item">
               <a class="nav-link" href="/spenden">Spenden</a>
             </li>
@@ -82,10 +92,9 @@
       <%= yield %>
     </div>
 
-    <footer class="bg-dark text-white text-center sticky-footer py-3 mt-auto">
-      © InSL e.V. | <a class="" href="/contact">Kontakt</a> | <a class="" href="/impressum">Impressum</a> | <a class="" href="/datenschutz">Datenschutz</a>
-    </footer>
-
+<footer class="bg-dark text-white text-center sticky-footer py-3 mt-auto">
+  © InSL e.V. | <a class="text-white" href="/contact">Kontakt</a> | <a class="text-white" href="/impressum">Impressum</a> | <a class="text-white" href="/datenschutz">Datenschutz</a>
+</footer>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>

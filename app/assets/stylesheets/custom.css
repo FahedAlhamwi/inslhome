@@ -43,7 +43,7 @@
 
     /* General Styles */
 body {
-    background-image: url('/assets/pattern_background.png');
+    background-image: url('/pattern_background.webp');
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -164,7 +164,7 @@ body {
     border: 1px solid #ccc;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
+
     /* Add border-radius for rounded corners */
     border-radius: 10px !important; /* Adjust the value for more or less rounding */
 }
